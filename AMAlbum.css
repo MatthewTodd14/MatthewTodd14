@@ -1,0 +1,104 @@
+h1 {
+	font-family: Roboto;
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-color: #15191A;
+}
+
+header {
+    padding: 20px 0;
+	background-color: #15191A;
+
+}
+
+#AM {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+#head {
+	background-color: #15191A;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+	text-align: right;
+}
+
+header a {
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+}
+
+h3, h2 {
+	color: white;
+	text-align: center;
+}
+
+.top-buffer {
+	margin-top:100px; 
+}
+
+ol {
+	background-color: #15191A;
+	color: white;
+	font-size: 10px;
+	text-align: left;
+}
+
+#cont {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #15191A;
+}
+
+#cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
